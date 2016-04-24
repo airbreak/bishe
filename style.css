@@ -1,0 +1,188 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: "microsoft yahei";
+}
+.wrapper .header {
+  height: 110px;
+  width: 100%;
+}
+.wrapper .header .wel {
+  height: 30px;
+  width: 100%;
+  background: url(imgs/topN.png) 0 0 repeat-x;
+}
+.wrapper .header .wel .wel-main {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 25px;
+}
+.wrapper .header .wel .wel-main > * {
+  height: 100%;
+  width: 50%;
+  font-size: 14px;
+  color: #4A3E3E;
+}
+.wrapper .header .wel .wel-main > *.left-wel {
+  float: left;
+}
+.wrapper .header .wel .wel-main > *.right-wel {
+  float: right;
+  text-align: right;
+  cursor: pointer;
+  text-decoration: none;
+}
+.wrapper .header .wel .wel-main > *.right-wel:hover {
+  text-decoration: underline;
+}
+.wrapper .header .logo-line {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+.wrapper .header .logo-line .logo-line-main {
+  height: 100%;
+  width: 80%;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+.wrapper .header .logo-line .logo-line-main .logo-item {
+  float: left;
+}
+.wrapper .header .logo-line .logo-line-main .logo-item:nth-child(2) .logo-w {
+  margin-left: 10px;
+  color: #006f4b;
+}
+.wrapper .header .logo-line .logo-line-main .logo-item:nth-child(2) .logo-w .word-c {
+  font-size: 32px;
+  margin-top: 6px;
+}
+.wrapper .header .logo-line .logo-line-main .logo-item:nth-child(2) .logo-w .word-e {
+  margin-top: 6px;
+}
+.wrapper .header .logo-line .logo-line-main .logo-item:nth-child(3) {
+  margin: 15px;
+  border-left: 1px solid #a1a1a1;
+  line-height: 30px;
+  padding-left: 20px;
+  font-size: 30px;
+}
+.wrapper .main {
+  height: 100%;
+  width: 80%;
+  position: relative;
+  margin: 10px auto;
+}
+.wrapper .main .left {
+  height: 660px;
+  width: 200px;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+  padding-top: 10px;
+}
+.wrapper .main .left ul {
+  height: 100%;
+  width: 100%;
+}
+.wrapper .main .left ul li {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.wrapper .main .left ul li a {
+  display: block;
+  text-decoration: none;
+  color: #555;
+  height: 100%;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.wrapper .main .left ul li a > * {
+  float: left;
+  line-height: 40px;
+}
+.wrapper .main .left ul li a .font-icon {
+  display: inline-block;
+  font-size: 18px;
+}
+.wrapper .main .left ul li a .word {
+  margin-left: 10px;
+}
+.wrapper .main .left ul li a.active {
+  background-color: #e1e1e1;
+  color: #006f4b;
+}
+.wrapper .main .left ul li a:hover {
+  background-color: #E1E1E1;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?ac7a52');
+  src: url('fonts/icomoon.eot?ac7a52#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?ac7a52') format('truetype'), url('fonts/icomoon.woff?ac7a52') format('woff'), url('fonts/icomoon.svg?ac7a52#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-book:before {
+  content: "\e030";
+}
+.icon-file-add:before {
+  content: "\e125";
+}
+.icon-books:before {
+  content: "\e900";
+}
+.icon-file-text2:before {
+  content: "\e901";
+}
+.icon-calculator:before {
+  content: "\e903";
+}
+.icon-users:before {
+  content: "\e908";
+}
+.icon-user-check:before {
+  content: "\e904";
+}
+.icon-search:before {
+  content: "\e902";
+}
+.icon-switch:before {
+  content: "\e905";
+}
+.icon-clipboard:before {
+  content: "\e906";
+}
+.icon-list-numbered:before {
+  content: "\e909";
+}
+.icon-earth:before {
+  content: "\e907";
+}
